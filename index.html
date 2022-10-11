@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+    }
+    
+    body{
+      display: flex;
+      justify-content: center;
+      background-color: #d5e1ef;
+      font-size: 15px;
+      max-width: 1440px;
+    }
+
+    #section{
+      text-align: center;
+    }
+
+    .div-principal{
+      margin-top: 40%;
+      width: 275px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 2px 2px 20px 0px #a9a8a8;
+    }
+
+    .qr-code{
+      border-radius: 10px;
+      width: 98%;
+    }
+
+    .escrita{
+      margin-bottom: 20px;
+    }
+
+    h1{
+      margin: 10px 0px 20px 0px;
+      font-size: 22px;
+    }
+
+    span{
+      color: #7e828c;
+    }
+
+    @media  (max-width: 375px) {
+    h1{
+      font-size: 20px;
+    }
+      
+    }
+
+  </style>
+  <link rel="shortcut icon" href="/imagens/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+
+  <section id="section">
+    <div class="div-principal">
+      <img src="/imagens/image-qr-code.png" class="qr-code" alt="qr-code">
+
+        <div class="escrita">
+          <h1>Improve your front-end skills by building projects</h1>
+          <span>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+        </div>
+    </div>
+
+  </section>
+
+
+</body>
+</html>
